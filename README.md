@@ -1,4 +1,4 @@
-#Yahya's Blog
+#Javascript Blog
 ###Open Sourcing my personal blog
 ###Built with Node.js
 
@@ -16,16 +16,17 @@
 
 ####File Structure
 
-*components* -> Holds individual React components
-*models* -> All Parse IO operations, Put your Parse.initialize here
-*public* -> Publicly accessible folder at `/`
-*views* -> Handlebar templates
+*components -> Holds individual React components
+*models -> All Parse IO operations, Put your Parse.initialize here
+*public -> Publicly accessible folder at `/`
+*views -> Handlebar templates
 
-**app.js** -> The top level React rendering point for both server side and client side. Browserify done here
-**routes.js** -> The functions that handles individual routes.
-**server.js** -> The entry point of the site. Server starts here
+*app.js -> The top level React rendering point for both server side and client side. Browserify done here
+*routes.js -> The functions that handles individual routes.
+*server.js -> The entry point of the site. Server starts here
 
 >License information in LICENSE.md
 
 Contact me at yaluqman@gmail.com
 Feedbacks appreciated
+:D
