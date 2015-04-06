@@ -1,0 +1,95 @@
+body
+{
+	font-family: 'Handlee', cursive;
+}
+a
+{
+	color : inherit;
+}
+.navbar
+{
+	background-color : #fff;
+}
+.navbar-brand
+{
+	color : #000;
+}
+.post p
+{
+	font-size : 1.2em;
+	word-spacing : 0.5em;
+	line-height : 1.75em;
+	margin-top : 10px;
+}
+.post h3
+{
+	font-size : 3em;
+	word-spacing : 6px;
+	line-height : 60px;
+}
+.post
+{
+	margin : auto auto 100px auto;
+}
+.jumbotron
+{
+	height : 310px;
+	background-image : url('/img/bg.jpg');
+	background-size : cover;
+	background-position : center;
+	color : #fff;
+}
+#intro_text
+{
+	font-size: 2em;
+	position: relative;
+	top: 75px;
+	width : 50%;
+	margin : auto;
+	text-align: center;
+	line-height : 40px;
+	word-spacing : 6px;
+}
+.pre_title
+{
+	margin : 30px auto;
+	color : #444;
+	word-spacing : 4px;
+}
+.datetime
+{
+	color: #bf1238;
+	font-size: 1.4em;
+}
+.post-action
+{
+	margin-top: 30px;
+	padding: 5px;
+	color : #de4f4f;
+}
+.post-action a
+{
+	display : block;
+}
+.img-post
+{
+	width : 100%;
+	margin : 10px auto;
+}
+.n-page
+{
+	margin : auto;
+	width : 150px;
+	position : relative;
+	top : -20px;
+}
+.n-page a
+{
+	color : #673AB7 !important;
+}
+.n-page li.active a
+{
+	background-color : #673AB7 !important;
+	border : #000 !important;
+	color : #fff !important;
+}

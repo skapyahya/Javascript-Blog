@@ -1,0 +1,25 @@
+{
+  "name": "yahya_blog",
+  "version": "1.0.0",
+  "description": "A Blog made with nodejs, express, parse and react",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Blog",
+    "Node.js",
+    "Express",
+    "React",
+    "Parse"
+  ],
+  "author": "Yahya Ayash Luqman",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3",
+    "express-handlebars": "^2.0.0",
+    "node-jsx": "^0.12.4",
+    "parse": "^1.3.5",
+    "react": "^0.13.1"
+  }
+}

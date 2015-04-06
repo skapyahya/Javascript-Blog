@@ -1,0 +1,30 @@
+<div class='post'>
+    <div class='container'>
+        <span class='datetime'>
+            {{ datetime }}
+        </span>
+        <h1>
+            {{ title }}
+        </h1>
+
+        {{#if pre_image }}
+            <div class='pre_image' >
+                <img class='img-post' src={{ pre_image }} />
+            </div>
+        {{/if}}
+
+        <div class='content'>
+            {{#each content }}
+                <p>{{ this }}</p>
+            {{/each}}
+        </div>
+
+        <div class='action-bar'>
+            <div class='container'>
+                <div class="fb-like" data-href={{ url }} data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <div class="fb-comments" data-href={{ url }} data-numposts="2" data-colorscheme="light" style='display: block;'></div>
+            </div>
+        </div>
+
+    </div>
+</div>

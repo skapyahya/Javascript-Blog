@@ -1,0 +1,62 @@
+body
+{
+    font-family : 'Handlee', cursive;
+}
+a
+{
+    color : inherit;
+}
+.navbar
+{
+    background : #fff;
+}
+.brand-title
+{
+    color : #de4f4f;
+}
+.post .container
+{
+    width : 75%;
+    margin : auto;
+    margin-top : 80px;
+}
+.post h1
+{
+    margin : 60px auto;
+    font-size : 4em;
+    text-align : center;
+}
+.content
+{
+    margin-top : 40px;
+    padding-bottom : 40px;
+    width : 100%;
+}
+.post p
+{
+    font-size : 1.3em;
+    line-height : 35px;
+    word-spacing : 3px;
+}
+.datetime
+{
+    color : #bf1238;
+    font-size : 1.4em;
+    text-align : center;
+    display : block;
+    margin-top : 50px;
+}
+.action-bar .container
+{
+    padding-bottom : 50px;
+    width : 100%;
+}
+.fb-like
+{
+    padding-bottom : 60px;
+}
+.img-post
+{
+    width : 100%;
+    margin: 50px auto;
+}
